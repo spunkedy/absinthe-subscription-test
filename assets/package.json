@@ -1,0 +1,45 @@
+{
+  "repository": {},
+  "license": "MIT",
+  "scripts": {
+    "deploy": "brunch build --production",
+    "watch": "brunch watch --stdin"
+  },
+  "dependencies": {
+    "apollo-phoenix-websocket": "^0.6.2",
+    "auth0-js": "^8.9.3",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-native": "^3.0.2",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "griddle-react": "^1.0.0",
+    "history": "^4.7.2",
+    "phoenix": "file:../../../deps/phoenix",
+    "phoenix_html": "file:../../../deps/phoenix_html",
+    "query-string": "^5.0.1",
+    "react": "^15.6.2",
+    "react-apollo": "^1.4.16",
+    "react-bootstrap": "^0.31.5",
+    "react-data-grid": "^2.0.60",
+    "react-data-grid-addons": "^2.0.60",
+    "react-dom": "^15.6.2",
+    "react-redux": "^5.0.6",
+    "react-redux-spinner": "^0.7.2",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.8",
+    "react-select": "^1.0.0-rc.10",
+    "react-sortable-hoc": "^0.6.8",
+    "redux": "^3.7.2",
+    "redux-form": "^7.0.4",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^4.10.1",
+    "styled-components": "^2.2.4"
+  },
+  "devDependencies": {
+    "babel-brunch": "6.1.1",
+    "brunch": "2.10.9",
+    "clean-css-brunch": "2.10.0",
+    "uglify-js-brunch": "2.10.0"
+  }
+}
