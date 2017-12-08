@@ -24,6 +24,7 @@ defmodule SubWeb.Router do
     pipe_through :api
 
     forward "/graphiql", Absinthe.Plug.GraphiQL,
+      socket: SubWeb.UserSocket,
       schema: SubWeb.Schema
 
     forward "/graphql", Absinthe.Plug,
